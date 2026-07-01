@@ -567,8 +567,11 @@
        PAGE: JOIN
     ════════════════════════════ */
     #pg-join {
-      display: flex; align-items: center; justify-content: center;
+      align-items: center; justify-content: center;
       background: var(--black); position: relative; overflow: hidden;
+    }
+    #pg-join.is-active {
+      display: flex;
     }
     #pg-join::before {
       content: ''; position: absolute; inset: 0;
